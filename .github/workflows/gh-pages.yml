@@ -13,9 +13,11 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
+        with:
+          submodules: true
 
-      - name: checkout submodule
-        run: git submodule update --init --recursive
+      # - name: checkout submodule
+      #   run: git submodule update --init --recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
