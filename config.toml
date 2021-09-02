@@ -1,0 +1,35 @@
+baseURL = 'https://andreaswillems.de/'
+languageCode = 'de-de'
+title = 'Meine Homepage'
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/profile.jpg"
+  author = "Andreas Willems"
+  description = "Mein Blog zu Themen, die mich derzeit interessieren."
+
+[params.social]
+  Github        = "andreaswillems"
+  Email         = "mail@andreaswillems.de"
+  Twitter       = "andreas_willems"
+  RSS           = "/blog/index.xml"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 200
+#   url = "/projects/"
+# [[menu.main]]
+#   name = "resume"
+#   identifier = "resume"
+#   weight = 300
+#   url = "/resume/"
