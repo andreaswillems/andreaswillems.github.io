@@ -1,10 +1,12 @@
 /* Main page with stikky-footer */
-html, body {
+html,
+body {
   height: 100%;
   background-color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27a822;
+  /* border-top: 3px solid #27a822; */
+  border-top: 6px solid #315967;
 }
 
 /* Wrapper for page content to push down footer */
@@ -78,12 +80,14 @@ html, body {
 }
 
 .container a {
-  color: #27a822;
-  text-decoration: none;
+  /* color: #27a822; */
+  color: #315967;
+  text-decoration: underline;
 }
 
 .container a:hover {
-  color: #267723;
+  /* color: #267723; */
+  color: #708d97;
 }
 
 .container p img,
@@ -151,7 +155,7 @@ h5 a:hover {
   color: #000;
   padding: 10px;
   padding-bottom: 4px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 .social-links li a:hover {
@@ -196,7 +200,8 @@ h5 a:hover {
 
 /* Footer  */
 .footer {
-  border-bottom: 5px solid #27a822;
+  /* border-bottom: 5px solid #27a822; */
+  border-bottom: 6px solid #315967;
   padding: 20px 0;
   text-decoration: none !important;
 }
