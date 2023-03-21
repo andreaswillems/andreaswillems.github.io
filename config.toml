@@ -15,7 +15,6 @@ theme = "hugo-sustain"
   Github        = "andreaswillems"
   Email         = "mail@andreaswillems.de"
   Twitter       = "andreas_willems"
-  RSS           = "/blog/index.xml"
 
 ## Main Menu
 [[menu.main]]
